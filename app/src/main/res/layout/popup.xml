@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="4dp"
+        android:padding="10dp">
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="220dp"
+            android:layout_gravity="center"
+            android:background="#167ee6"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textAlignment="center"
+                    android:text="@string/welcome_to_financer"
+                    android:textColor="@color/white"
+                    android:textSize="28sp"></TextView>
+
+                <TextView
+                    android:id="@+id/underline"
+                    android:layout_width="350dp"
+                    android:layout_height="3dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="95dp"
+                    android:layout_marginTop="47dp"
+                    android:layout_marginEnd="100dp"
+                    android:gravity="center"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="60dp"
+                    android:paddingRight="15dp"
+                    android:text="@string/the_app_is_really_easy_to_use_in_the_previous_screen_you_entered_your_bank_balance_and_now_you_can_select_the_new_expense_button_and_add_up_to_3_expenses"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp"
+                    tools:ignore="TextContrastCheck"></TextView>
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingBottom="5dp">
+
+                <TextView
+                    android:id="@+id/gotIt"
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                    android:layout_width="300dp"
+                    android:layout_height="70dp"
+                    android:paddingTop="10dp"
+                    android:textSize="20sp"
+                    android:text="@string/click_the_empty_nspace_to_continue"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.appcompat.widget.LinearLayoutCompat>

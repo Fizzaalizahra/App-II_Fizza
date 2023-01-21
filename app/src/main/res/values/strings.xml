@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Financer</string>
+    <string name="todo">TODO</string>
+    <string name="account_balance">Account Balance:</string>
+    <string name="enter_the_amount">Enter the Amount</string>
+    <string name="netflix">Netflix</string>
+    <string name="personal">Personal</string>
+    <string name="hospital">Hospital</string>
+    <string name="clear">Clear</string>
+    <string name="click_the_empty_nspace_to_continue">Click the empty \nspace to continue</string>
+    <string name="welcome_to_financer">Welcome to Financer!</string>
+    <string name="the_app_is_really_easy_to_use_in_the_previous_screen_you_entered_your_bank_balance_and_now_you_can_select_the_new_expense_button_and_add_up_to_3_expenses">The app is really easy to use. In the previous screen you entered your bank balance, and now you can select the new expense button and add up to 3 expenses</string>
+    <string name="enter_the_amount_of_money">Enter The Amount of Money</string>
+    <string name="proceed">Proceed</string>
+</resources>
