@@ -44,6 +44,9 @@ class MainPage2 : AppCompatActivity() {
         }
         clear.setOnClickListener(){
             choice = 0
+            netflix.isEnabled = true
+            personal.isEnabled = true
+            hospital.isEnabled = true
         }
         okBtn.setOnClickListener {
             var amount = amountEntered.text.toString().toInt()
